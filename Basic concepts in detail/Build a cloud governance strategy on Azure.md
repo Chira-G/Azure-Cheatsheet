@@ -49,7 +49,14 @@ You manage access permissions on the Access control (IAM) pane in the Azure port
 The following screenshot shows an example of the Access control (IAM) pane for a resource group. In this example, Alain Charon has been assigned the Backup Operator role for this resource group.
 <img src="https://learn.microsoft.com/en-us/training/azure-fundamentals/build-cloud-governance-strategy-azure/media/4-role-based-access-control-blade-360b5130.png"> 
 
+#### How do I manage resource locks?
+You can manage resource locks from the Azure portal, PowerShell, the Azure CLI, or from an Azure Resource Manager template.
 
+To view, add, or delete locks in the Azure portal, go to the Settings section of any resource's Locks pane in the Azure portal.
+
+Here's an example that shows how to add a resource lock from the Azure portal. You'll apply a similar resource lock in the next part.
+
+<img src="https://learn.microsoft.com/en-us/training/azure-fundamentals/build-cloud-governance-strategy-azure/media/7-portal-add-lock-ebc3d24c.png">
 
 
 
